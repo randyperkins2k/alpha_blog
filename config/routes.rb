@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   # We will want to send the route to a controller, followed by a method to handle this request.
   root 'pages#home'
+  get 'about', to: 'pages#about'
 end
